@@ -177,6 +177,6 @@ module Wallpaper
   ]
 
   def self.random
-    'wallpapers/' + @wallpapers.sample
+    'public/images/' + @wallpapers.sample
   end
 end
