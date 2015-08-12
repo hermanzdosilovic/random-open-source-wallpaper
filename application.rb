@@ -1,7 +1,9 @@
 require 'bundler/setup'
 require 'sinatra'
 
-require_relative 'wallpaper'
+$LOAD_PATH.unshift("lib/").uniq!
+
+require 'wallpaper'
 
 @@redirect = true
 
