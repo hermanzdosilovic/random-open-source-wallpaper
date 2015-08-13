@@ -5,8 +5,11 @@ $LOAD_PATH.unshift("lib/").uniq!
 
 require 'wallpaper'
 
-get '/' do
+before do
   cache_control :public, :no_store
+end
+
+get '/' do
   send_file Wallpaper.random
 end
 
