@@ -1,12 +1,12 @@
 # Random Open Source Wallpaper
 
-Sinatra app for getting random open source wallpaper every time you visit [rosw.ddsn.net](http://rosw.ddns.net)
+Sinatra app for getting random open source wallpaper every time you visit [rosw.ddns.net](http://rosw.ddns.net)
 
 ## Wallpapers
 
 I copied wallpapers from some Ubuntu [packages](http://packages.ubuntu.com/trusty/ubuntu-wallpapers).
 
-If you want to add some wallpapers to [rosw.ddsn.net](http://rosw.ddns.net) do the following:
+If you want to add some wallpapers to [rosw.ddns.net](http://rosw.ddns.net) do the following:
 
 1. Fork this repository.
 
@@ -20,12 +20,12 @@ If you want to add some wallpapers to [rosw.ddsn.net](http://rosw.ddns.net) do t
 
 ## Routes
 
-* `rosw.ddns.net` display random wallpaper
+* [`rosw.ddns.net`](http://rosw.ddns.net) display random wallpaper
 
-* `rosw.ddns.net/download` download random wallpaper
+* [`rosw.ddns.net/download`](http://rosw.ddns.net/download) download random wallpaper
 
 
-## Some Ideas for Future
+## Some Ideas for The Future
 
 * Adding tags to wallpapers
 * Returning wallpapers in specific size
