@@ -14,7 +14,7 @@ If you want to add some wallpapers to [rosw.ddsn.net](http://rosw.ddns.net) do t
 
 3. Copy wallpaper in `public/images` folder. Make sure to use nonexistent name.
 
-4. Add wallpaper name (including extension) at the end of the `@wallpapers` array in [wallpaper.rb](https://github.com/hermanzdosilovic/random-open-source-wallpaper/blob/master/lib/wallpaper.rb) file.
+4. Add wallpaper name (including extension) at the end of the `@wallpapers` class variable in [wallpaper.rb](https://github.com/hermanzdosilovic/random-open-source-wallpaper/blob/master/lib/wallpaper.rb) file.
 
 5. Commit and push your changes
 
