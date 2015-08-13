@@ -1,6 +1,6 @@
 require 'bundler/setup'
 require 'sinatra'
-require 'lib/wallpaper'
+require './lib/wallpaper'
 
 before do
   cache_control :public, :no_store
