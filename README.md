@@ -14,15 +14,19 @@ If you want to add some wallpapers to [rosw.ddsn.net](http://rosw.ddns.net) do t
 
 3. Copy wallpaper in `public/images` folder. Make sure to use nonexistent name.
 
-4. Add wallpaper name (including extension) at the end of the `@wallpapers` class variable in [wallpaper.rb](https://github.com/hermanzdosilovic/random-open-source-wallpaper/blob/master/lib/wallpaper.rb) file.
+4. Commit and push your changes
 
-5. Commit and push your changes
+5. Create a new pull request
 
-6. Create a new pull request
+## Routes
+
+* `rosw.ddns.net` display random wallpaper
+
+* `rosw.ddns.net/download` download random wallpaper
+
 
 ## Some Ideas for Future
 
 * Adding tags to wallpapers
 * Returning wallpapers in specific size
-* Download wallpapers every time you visit page
 
