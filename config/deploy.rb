@@ -24,3 +24,7 @@ task deploy: :environment do
     end
   end
 end
+
+task :environment do
+  invoke :'rbenv:load'
+end
