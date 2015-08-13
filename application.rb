@@ -1,9 +1,6 @@
 require 'bundler/setup'
 require 'sinatra'
-
-$LOAD_PATH.unshift("lib/").uniq!
-
-require 'wallpaper'
+require 'lib/wallpaper'
 
 before do
   cache_control :public, :no_store
