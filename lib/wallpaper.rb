@@ -1,6 +1,6 @@
 module Wallpaper
-  @wallpapers = Dir["public/images/*"]
   def self.random
+    @wallpapers ||= Dir["public/images/*"]
     @wallpapers.sample
   end
 end
