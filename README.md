@@ -1,32 +1,37 @@
 # Random Open Source Wallpaper
 
-Sinatra app for getting random open source wallpaper every time you visit [rosw.ddns.net](http://rosw.ddns.net)
+Every time you visit [wallpaper.hermanzdosilovic.me](http://wallpaper.hermanzdosilovic.me) you get random open source wallpaper.
 
 ## Wallpapers
 
 I copied wallpapers from some Ubuntu [packages](http://packages.ubuntu.com/trusty/ubuntu-wallpapers).
 
-If you want to add some wallpapers to [rosw.ddns.net](http://rosw.ddns.net) do the following:
+If you want to add some wallpapers to [wallpaper.hermanzdosilovic.me](http://wallpaper.hermanzdosilovic.me) do the following:
 
 1. Fork this repository.
 
-2. Make sure your wallpaper is not already in this repository. All wallpapers are located in [public/images](https://github.com/hermanzdosilovic/random-open-source-wallpaper/tree/master/public/images) folder.
+2. Make sure your wallpaper is not already in this repository. All wallpapers are located in [images](https://github.com/hermanzdosilovic/random-open-source-wallpaper/tree/master/images) folder.
 
-3. Copy wallpaper in `public/images` folder. Make sure to use nonexistent name.
+3. Copy wallpaper in `images` folder. Make sure to use nonexistent name.
 
 4. Commit and push your changes
 
 5. Create a new pull request
 
-## Routes
+# Docker
 
-* [`rosw.ddns.net`](http://rosw.ddns.net) display random wallpaper
+Production image for this application is available on [Docker Hub](https://hub.docker.com/r/hermanzdosilovic/random-open-source-wallpaper/).
 
-* [`rosw.ddns.net/download`](http://rosw.ddns.net/download) download random wallpaper
+Run it on **non** ARM device:
+```
+$ docker run -p 8080:8080 hermanzdosilovic/random-open-source-wallpaper
+```
 
+Run it on ARM device (e.q. Raspberry Pi):
+```
+$ docker run -p 8080:8080 hermanzdosilovic/random-open-source-wallpaper:rpi
+```
 
-## Some Ideas for The Future
+## Raspberry Pi
 
-* Adding tags to wallpapers
-* Returning wallpapers in specific size
-
+I have tested it with Raspberry Pi 3.

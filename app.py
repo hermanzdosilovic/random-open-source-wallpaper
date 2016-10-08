@@ -2,7 +2,7 @@ import web
 import requests
 import random
 
-urls = ("/.*")
+urls = ("/.*", "hello")
 app = web.application(urls, globals())
 
 class hello:
