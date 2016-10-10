@@ -1,9 +1,12 @@
 import web
 import requests
+import requests_cache
 import random
 
 urls = ("/.*", "hello")
 app = web.application(urls, globals())
+
+requests_cache.install_cache("github_cache")
 
 class hello:
     def GET(self):
