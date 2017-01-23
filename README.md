@@ -1,12 +1,12 @@
 # Random Open Source Wallpaper
 
-Every time you visit [wallpaper.hermanzdosilovic.me](http://wallpaper.hermanzdosilovic.me) you get random open source wallpaper.
+Every time you visit https://wallpaper.dosilovic.com you get random open source wallpaper.
 
 ## Wallpapers
 
 I copied wallpapers from some Ubuntu [packages](http://packages.ubuntu.com/trusty/ubuntu-wallpapers).
 
-If you want to add some wallpapers to [wallpaper.hermanzdosilovic.me](http://wallpaper.hermanzdosilovic.me) do the following:
+If you want to add some wallpapers to https://wallpaper.dosilovic.com/ do the following:
 
 1. Fork this repository.
 
